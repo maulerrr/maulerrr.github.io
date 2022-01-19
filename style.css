@@ -19,19 +19,19 @@ body{
 img{
     position: relative;
     image-orientation: top;
-    margin-top: 0;
+    margin-top: -22px;
     width: 100%
 } 
 .information{
     width: 80%;
-    margin-left: 7%;
-    margin-top: 2%;
+    margin-left: 9%;
+    margin-top: 4%;
 }
 .transition{
-    margin-top: 8%;
+    margin-top: 12%;
     width: 100%;
 }
-.hr{
+.hrln{
     border: 5px solid #98999D;
     background-color: #98999D;
    margin-left: 15%;
@@ -89,7 +89,9 @@ a{
     padding-left: 10%;
     padding-right: 10%;
 }
-button:hover{
-    background-color: #E63B3D;
-    background-blend-mode: soft-light;
+
+}
+.btn btn-outline-danger{
+    padding:15%; 
+    font-size: 300%;
 }
