@@ -8,7 +8,7 @@ function Par(v){
 
 function BMI(weight, height) {
     let bmi; 
-    if(height>3) bmi = (weight / Math.pow((height / 100), 2)).toFixed(1);            //if input is in centimeters
+    if(height<3) bmi = (weight / Math.pow((height * 100), 2)).toFixed(1);            //if input is in centimeters
     else bmi = (weight / Math.pow(height, 2)).toFixed(1);                            //if input is in meters
 
     if(bmi<18.5) { return "Your BMI is " + bmi + ", so you are underweight." ;}
