@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tester</title>
+</head>
+<body>
+    <!-- BMI Calculator - 5th task -->
+    <div class="BMI">
+        <form id = "formBMI" onsubmit="return Par(this)">
+            <h1>BMI Calculator</h1>
+            <input type="text" id='weight' placeholder="Enter your weight">
+            <input type="text" id='height' placeholder="Enter your height">
+            <input type="submit" value="Find BMI">
+        </form> <br> <br>
+        <h3 id="result"></h3>
+    </div>
+    <!--Who pays for lunch - 7 th task  -->
+    <div class="Lunch">
+        <form id="formLunch" onsubmit="return Who(this)">
+            <h1>Who is going to pay for food today?</h1>
+            <input type="text" id="persons" placeholder="Let's check!">
+            <input type="submit" value="Who is lucky today?)))">
+        </form>
+        <h3 id="platit"></h3>
+    </div><br>
+    <!-- Fibonacci numbers - 8th task  -->
+    <div class="Fibonacci">
+        <form id="fromFibNumb" onsubmit="return Fibo(this)">
+            <h1>Fibonacci number generator</h1>
+            <input type="text" id="number" placeholder="Enter size of set - n">
+            <input type="submit" value="Generate">
+        </form>
+        <div><h3 id="set"></h3></div>
+    </div>
+    <!-- connecting js -->
+    <script src="js/task1.js"></script>
+    <script src="js/task4.js"></script>
+    <script src="js/task5.js"></script>
+    <script src="js/task6.js"></script>
+    <script src="js/task7.js"></script>
+    <script src="js/task8.js"></script>
+</body>
+</html>
+
+<style>
+    body{
+        background-color:floralwhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.BMI{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        align-items: center;
+        text-align: center;
+    }
+    div.Lunch{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        align-items: center;
+        text-align: center;
+    }
+    div.Fibonacci{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        align-items: center;
+        text-align: center;
+    }
+    input{padding: 0.5rem;}
+</style>
